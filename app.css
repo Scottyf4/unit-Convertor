@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* CSS For Heading DIV and Contents */
+.head-section {
+  background-color: #6943ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
+}
+
+.conversion-box {
+  display: block;
+  width: 120px;
+  height: 85px;
+  border-radius: 5px;
+  border: 1px solid #b295ff;
+  background-color: #6943ff;
+  font-size: 58px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.conversion-box:focus {
+  outline: none;
+}
+
+#conversion-button {
+  appearance: none;
+  font-family: "Inter", sans-serif;
+  width: 120px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 35px;
+}
+
+/* CSS For Conversion results */
+
+.conversion-section {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.conversion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 110px;
+  margin-top: 25px;
+  background-color: white;
+}
+
+.conversionUnitTitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: #5a537b;
+}
