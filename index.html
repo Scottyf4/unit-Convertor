@@ -13,23 +13,36 @@
     <title>Unit Convertor</title>
   </head>
   <body>
+    <!-- Title section to take input to be converted -->
     <section class="head-section">
       <h1 class="title">Metric / Imperial Unit Conversion</h1>
-      <input type="text" class="conversion-box" value="0" />
+      <input
+        id="conversion-unit"
+        type="text"
+        class="conversion-box"
+        value="0"
+      />
       <button id="conversion-button">Convert</button>
     </section>
+    <!-- Conversion section to display all converted units -->
     <section class="conversion-section">
       <div class="conversion-container">
         <h3 class="conversionUnitTitle">Length (Meter / Feet)</h3>
-        <p>Conversion</p>
+        <p class="conversion-output" id="length-conversion">
+          Awaiting Conversion
+        </p>
       </div>
       <div class="conversion-container">
         <h3 class="conversionUnitTitle">Volume (Litres / Gallons)</h3>
-        <p>Conversion</p>
+        <p class="conversion-output" id="volume-conversion">
+          Awaiting Conversion
+        </p>
       </div>
       <div class="conversion-container">
         <h3 class="conversionUnitTitle">Mass (Kilograms / Pounds)</h3>
-        <p>Conversion</p>
+        <p class="conversion-output" id="mass-conversion">
+          Awaiting Conversion
+        </p>
       </div>
     </section>
     <script src="index.js"></script>
